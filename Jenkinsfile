@@ -39,7 +39,7 @@ pipeline {
 
     post {
         success {
-            echo '✅ Build, Push, and Deploy completed successfully!'
+            echo '✅ Build, Push, and Deploy Muniraju completed successfully!'
         }
         failure {
             echo '❌ Pipeline failed. Check logs.'
